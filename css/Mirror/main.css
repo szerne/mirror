@@ -1,0 +1,91 @@
+body {
+   background-color: black;
+   color: white; 
+}
+
+.container {
+    max-width: none;
+    margin-top: 25px;
+}
+
+.current-temp h5{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.current-temp h1 {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.current-temp p {
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.forecast {
+    font-family: "Dosis", sans-serif;
+}
+
+.forecast.icon {
+    height: 35px;
+    margin: 10px 0;
+}
+
+.forecast .degree {
+    font-size: 18px;
+}
+
+#clock {
+    text-align: right;
+}
+
+#greeting {
+    position: fixed;
+    top: 65%;
+    left: 30%;
+    width:40%;
+    text-align: center;
+}
+
+#news-feed {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+#news-feed .thumbnail {
+    display: inline-block;
+    border: 3px solid white;
+    max-height: 190px;
+}
+
+#qrcode canvas {
+    border: 3px solid white;
+    float: right;
+}
+
+#news-feed h5 {
+    font-weight: 300;
+    margin-bottom: 8px;
+    line-height: 1;
+}
+
+#news-feed p {
+    font-weight: 300;
+    font-family: "Dosis", sans-serif;
+    line-height: 1.4;
+}
+
+.news-source{
+    text-align: center;
+    margin: auto;
+    width: 25% !important;
+    padding-bottom: 10px;
+}
+
+li.command {
+    margin-bottom: 0;
+    font-size: 24px;
+    list-style: none;
+}

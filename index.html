@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Magic Mirror</title>
+    <link rel="stylesheet" href="css/Skeleton/normalize.css">
+    <link rel="stylesheet" href="css/Skeleton/skeleton.css">
+    <link rel="stylesheet" href="css/Mirror/main.css">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Oswald:300,400|Playfair+Display" rel="stylesheet">
+  </head>
+  <body>
+    <div id="mirror" class="container">
+      <div class="row">
+
+        <!-- WEATHER -->
+        <div id="weather" class="two-thirds column">
+          <div class="current-temp">
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="hourly-forecast"></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- CLOCK -->  
+        <h1 class="u-pull-right one-third column" id="clock">
+      </div>
+      
+      <!--NEWS FEED-->
+      <div id="news-feed" class="container row"></div>
+
+      <!--GREETING-->
+      <h3 id="greeting"></h3>
+    </div>
+  </body>
+  <script src="node_modules/systemjs/dist/system.js"></script>
+  <script src="system.conf.js"></script>
+</html>
